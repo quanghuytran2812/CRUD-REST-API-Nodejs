@@ -4,6 +4,8 @@
 name: Test CRUD operations
 
 on:
+  push:
+    branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
